@@ -44,7 +44,7 @@
           <mainClass>com.ravi.cal.RaviCalculator.Calculator</mainClass>
           <arguments>
             <argument>argument1</argument>
-            ...
+            
           </arguments>
           <systemProperties>
             <systemProperty>
