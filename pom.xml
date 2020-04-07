@@ -51,5 +51,33 @@
               <key>myproperty</key>
               <value>myvalue</value>
             </systemProperty>
+<distributionManagement>
+  <snapshotsRepository>
+    <id>snapshots</id>
+    <layout>default</layout>
+    <url>http://192.168.122.1:8081/nexus/content/repositories/snapshots</url>
+  </snapshotsRepository>
+
+<repository>
+    <id>releases</id>
+    <layout>default</layout>
+    <url>http://192.168.122.1:8081/nexus/content/repositories/releases</url>
+  </repository>
+</distributionManagement>
+
 </systemProperties>
         </configuration>
+<distributionManagement>
+  <snapshotRepository>
+    <id>snapshots</id>
+    <layout>default</layout>
+    <url>http://192.168.122.1:8081/nexus/content/repositories/snapshots</url>
+  </snapshotRepository>
+
+<repository>
+    <id>releases</id>
+    <layout>default</layout>
+    <url>http://192.168.122.1:8081/nexus/content/repositories/releases</url>
+  </repository>
+</distributionManagement>
+
